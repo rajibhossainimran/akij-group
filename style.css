@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+div,li,a,ul,p{
+    margin: 0;
+    padding: 0;
+}
+.fa-phone-flip,.fa-envelope{
+    display: inline-block;
+    font-size:20px;
+}
+.my-nav{
+    color: white;
+    font-size: 17px;
+    font-weight: 700;
+}
+.navbar-nav .nav-link.active{
+    color: white;
+}
+.navbar-toggler{
+    background-color: white;
+}
+
+.dropdown-item:hover{
+    background-color: rgb(1, 70, 173);
+    color: white;
+}
+.carousel-caption{
+    margin-bottom: 150px;
+}
+a{
+    text-decoration: none;
+}
+.banner-btn{
+    display: inline-block;
+    font-size: 17px;
+    font-weight: 600;
+    color: white;
+    border: 3px solid white;
+    padding: 3px 15px 5px 15px;
+    border-radius: 60px;
+    
+}
+.banner-btn:hover{
+    background-color: white;
+    color: rgb(4, 37, 129);
+}
+.card{
+    height: 240px;
+    transition: 1s ease;
+    border: 2px solid rgb(18, 100, 133);
+}
+.card:hover{
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+        -webkit-transform: scale(0.8);
+    -ms-transform: scale(1.2);
+    transform: scale(1.1);
+    transition: .5s ease;
+
+}
+
+/*----------------------- akij uddin section part start  */
+.akij-img-container{
+    position: relative;
+}
+.akij-container{
+    background-color: rgb(222, 243, 243);
+}
+.img-2{
+    position: absolute;
+    bottom: 10px;
+    right: -15px;
+}
+.img-1{
+        transition: 1s ease;
+}
+.img-1:hover{
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(1.2);
+    transform: scale(1.1);
+    transition: .5s ease;
+}
+.view-detail-btn{
+    background-image: linear-gradient(to right, rgb(47, 0, 255) , rgb(0, 174, 255));
+    display: inline-block;
+    font-size: 17px;
+    font-weight: 600;
+    color: white;
+    padding: 13px 17px 15px 19px;
+    border-radius: 60px;
+    
+}
+
+/*--------------------- companies profile section style  */
+.companies-card{
+    padding-bottom: 20px;
+    width: 180px;
+    transition: 1s ease;
+}
+.companies-img{
+    width: 180px;
+    height: 200px;
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+.companies-card:hover{
+    transform: scale(1.1);
+}
+.companies-card:hover{
+-webkit-transform: scale(0.8);
+-ms-transform: scale(1.2);
+transform: scale(1.05);
+transition: .3s ease;
+}
+
+/*------------------------- The Strategies section part start */
+.Strategies-container{
+    background-color: rgb(0, 106, 148);
+}
+
+
+/*------------ Board Of Corporate Directors section part start  */
+.director-container{
+    background: linear-gradient(rgba(27, 36, 124, 0.8), rgba(55, 104, 195, 0.8)), url("images/banner2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.direc-img{
+    border: 3px solid rgb(202, 202, 0);
+}
+.directors-card{
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+/*------------------------------- news-event section  */
+.news-event{
+    background-color: skyblue;
+}
+
+/*------------------------------ section news and events */
+.news-card{
+    overflow: hidden;
+}
+.card-img-top{
+    overflow: hidden;
+    width: 100%;
+    transition: 0.5s all ease-in-out;
+    transform: scale(1);
+}
+
+.card-img-top:hover{
+    transform: scale(1.2);
+}
+/* -------------------------subscribe section part start  */
+.subscribe-container{
+    background: linear-gradient(rgba(27, 36, 124, 0.5), rgba(55, 104, 195, 0.5)), url("images/banner2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 10px;
+}
+.subscribe-btn{
+    background-image: linear-gradient(to right, rgb(47, 0, 255) , rgb(0, 174, 255));
+    display: inline-block;
+    font-size: 17px;
+    font-weight: 600;
+    color: white;
+    padding: 7px 17px 9px 19px;
+    border-radius: 60px;
+    margin: 30px auto;
+}
+
+/*--------------------------------- footer style part start  */
+.footer-container{
+    background-color: rgb(0, 39, 71);
+}
+.footer-text{
+    font-size: 13px;
+    font-weight: 600;
+}
+.footer-icon{
+    display: inline-block;
+    border: 2px solid rgb(255, 255, 255);
+    /* padding: 6px 7px 4px 7px; */
+    padding: 7px 8px;
+    border-radius: 50%;
+    margin-left: 7px;
+    margin-bottom: 4px;
+    font-size: 12px;
+}
+
+@media screen and (max-width:576px) {
+    .carousel-caption{
+        margin-top: 10px;
+        margin-bottom: 0;
+        
+    }
+    
+}
